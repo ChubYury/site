@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: 'PFDinTextCond-Medium';
+    
+    src: url('../font/pfdintextcondpro-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin medium {
+    font-family: 'PFDinTextCond-Medium', sans-serif;
+}
+
+@font-face {
+    font-family: 'PFDinTextCond-Regular';
+    
+    src: url('../font/PFDinTextCondPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin regular {
+    font-family: 'PFDinTextCond-Regular', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'PFDinTextCond-Light';
+    
+    src: url('../font/PFDinTextCondPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin light {
+    font-family: 'PFDinTextCond-Light', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'PFDinTextCond-XThin';
+    
+    src: url('../font/PFDinTextCompPro-XThin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin xthin {
+    font-family: 'PFDinTextCond-XThin', sans-serif;
+}
+
+
+
+@font-face {
+    font-family: 'PFDinTextCond-Bold';
+    
+    src: url('../font/PFDinTextCondPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin bold {
+    font-family: 'PFDinTextCond-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'PTSans-Regular';
+    
+    src: url('../font/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@mixin PTregular {
+    font-family: 'PTSans-Regular', sans-serif;
+}

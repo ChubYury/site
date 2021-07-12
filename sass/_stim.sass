@@ -1,0 +1,58 @@
+.stim
+    &_wrap
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        align-items: center
+        justify-content: center
+        margin: 44px 0px 0px 0px
+    &-clock
+        margin-right: 52px
+    &-time
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        position: relative
+        background: #E7E7E7
+        width: 548px
+        height: 138px
+        margin-right: 52px
+        padding: 9px
+        z-index: 2
+        &::before
+            content: ""
+            position: absolute
+            background: #ffffff
+            width: 540px
+            height: 130px
+            margin: -5px 3px 3px -5px
+            border-radius: 10px
+            z-index: 3
+        &-timnum
+            position: relative
+            background: url(../img/grad3.png) 
+            background-size: 100% 100%
+            width: 56px
+            height: 96px
+            margin: 2px
+            padding-top: 1px
+            border-top: 0.5px solid #EDEDED
+            border-radius: 5px
+            border-bottom: 0.5px solid #929292
+            box-shadow: 1px 2px 4px rgba(0,0,0,0.7)
+            font-size: 80px
+            text-align: center
+            +PTregular
+            z-index: 4
+        &-when
+            position: relative
+            width: 112px
+            margin: 0px 9px
+            padding-left: 1px
+            text-align: center
+            font-size: 17px
+            +bold
+            z-index: 4
+    
+.mar
+    margin-right: 15px
